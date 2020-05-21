@@ -13,4 +13,4 @@ concept, etc which is used in those porblems.
 if you still not able to implement optimal solution then go to solution also always think about how to minimise 
 time-complexity. it will lead you to the ultimate answer.
 
-#Remember: **Practice Practice and Practice is the key of this door.**
+#Remember: **Practice Practice and Practice is the only key of CP.**
