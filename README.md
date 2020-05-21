@@ -5,7 +5,7 @@ Here, the problems are based on diffrent difficulty level which will be uploaded
 
 **Tips** :
 
-Solve these problems first and try to come with (at least) brute force solution, find the time complexity of brute force then go ahead to minimise it. during this period of time if you stuck more then 1-2hrs, lookup for the hint and read all theoritical knowledge about algorithm,concept, etc which is used in these problems.
+Solve these problems first and try to come with (at least) brute force solution, find the time complexity of brute force then go ahead to minimise it. during this period of time if you stuck more then 1-2hrs, lookup for the hint and read all theoritical knowledge about algorithm,concept, etc which will be used in these problems.
 
 if you still not able to implement optimal solution then go to solutions also always think about how to minimise 
 time-complexity. it will lead you to the better solution.
