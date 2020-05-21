@@ -1,14 +1,15 @@
-# **Hashing Questions** 
+# **Hashing** 
 A Hash table is an effective data structure for implementing Dictionary. A Dictionary is a data structure that maps key to value.
 Hash Table and Hash Function is used to understand theoritical concept behind Hashing.
  # implementing Hash
   
-  C++, java, and python uses unordered_map, HashMap, and Dictionary respectively.
+  C++, java, and python use unordered_map, HashMap, and Dictionary respectively.
 
 # Time-complexity Analysis
  **Average case** time complexity for search is `O(1)`
  **Worst case** time complexity for lookup(Search) is `O(n)`
- ``Note``: worst case is rarely implemented. 
+
+ ``Note``: worst case is rarely used. 
 
 # **C++**
 
@@ -21,9 +22,9 @@ else return hash[k];**
 
 # **JAVA**
 
-please contribute, here to implement hash in java.
+please contribute, here to implement ``HashMap`` in java.
 # **Python** 
 
-please contribute, here to implement hash in python.
+please contribute, here to implement ``Dictionary`` in python.
 
 
