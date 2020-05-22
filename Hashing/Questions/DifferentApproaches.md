@@ -22,7 +22,7 @@ Loop through each element xx and find if there is another value that equals to t
     
     throw new IllegalArgumentException("No two sum solution");
 
-}
+    }
 
 
 Complexity Analysis
@@ -115,7 +115,7 @@ public int[] twoSum(int[] nums, int target) {
     
     throw new IllegalArgumentException("No two sum solution");
     
-}
+    }
 
 
 Complexity Analysis:
