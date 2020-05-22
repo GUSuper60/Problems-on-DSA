@@ -4,21 +4,21 @@ The brute force approach is simple.
 Loop through each element xx and find if there is another value that equals to target - xtarget−x.
 
 
-public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
-    for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
     
-        for (int j = i + 1; j < nums.length; j++) {
+            for (int j = i + 1; j < nums.length; j++) {
         
-            if (nums[j] == target - nums[i]) {
+                if (nums[j] == target - nums[i]) {
             
-                return new int[] { i, j };
+                    return new int[] { i, j };
             
+                }
+        
             }
-        
-        }
     
-    }
+        }
     
     throw new IllegalArgumentException("No two sum solution");
 
@@ -51,31 +51,31 @@ Then, in the second iteration we check if each element's complement (target - nu
 Beware that the complement must not be nums[i] itself!
 
 
-public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
-    Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
 
-    for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
     
-        map.put(nums[i], i);
+            map.put(nums[i], i);
     
-    }
-    
-    for (int i = 0; i < nums.length; i++) {
-    
-        int complement = target - nums[i];
-        
-        if (map.containsKey(complement) && map.get(complement) != i) {
-        
-            return new int[] { i, map.get(complement) };
-            
         }
-        
-    }
     
-    throw new IllegalArgumentException("No two sum solution");
+        for (int i = 0; i < nums.length; i++) {
+    
+            int complement = target - nums[i];
+        
+            if (map.containsKey(complement) && map.get(complement) != i) {
+            
+                return new int[] { i, map.get(complement) };
+            
+            }
+        
+        }
+    
+        throw new IllegalArgumentException("No two sum solution");
 
-}
+    }
 
 
 Complexity Analysis:
